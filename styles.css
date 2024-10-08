@@ -1,0 +1,69 @@
+/* Color palette */
+:root {
+    --color-dark-brown: #231F20;
+    --color-bright-pink: #D71A8E;
+    --color-red: #ED1C26;
+    --color-light-pink: #FDECEF;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Default system font */
+    background-color: var(--color-light-pink);
+    color: var(--color-dark-brown);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    font-size: 3em;
+    color: var(--color-dark-brown);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: var(--color-bright-pink);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2em;
+    color: var(--color-red);
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: var(--color-bright-pink);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--color-red);
+    text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+    color: var(--color-dark-brown);
+}
+
+/* Buttons */
+button {
+    background-color: var(--color-red);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--color-bright-pink);
+}
+<link rel="stylesheet" href="styles.css">
